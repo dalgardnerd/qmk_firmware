@@ -28,6 +28,14 @@
 #define MATRIX_COLS 16
 #define MATRIX_MUX_COLS 4
 
+/*Flip Encoder*/
+#define ENCODER_DIRECTION_FLIP
+
+/*Leader Key*/
+#define LEADER_PER_KEY_TIMING
+#define LEADER_TIMEOUT 300
+#define LEADER_NO_TIMEOUT
+
 /*
  * Keyboard Matrix Assignments
  * The nibble uses a demultiplexer for the cols.
@@ -37,3 +45,4 @@
 #define MATRIX_ROW_PINS { B1, B3, B2, B6, D4 }
 #define MATRIX_COL_MUX_PINS { F4, F5, F6, F7 }
 #define MATRIX_COL_PINS { }
+

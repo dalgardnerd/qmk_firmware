@@ -1,0 +1,3 @@
+VIA_ENABLE = no
+KEY_LOCK_ENABLE = yes
+LEADER_ENABLE = yes
